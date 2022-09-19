@@ -1,0 +1,178 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+
+    box-sizing: border-box;
+}
+
+.slick-list
+{
+    position: relative;
+
+  
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+float: left;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: fill;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+
+
+.multiple-items{
+    width: 1100px;
+   
+ }
+
+
+ 
+.c-1 {
+    background-color: aqua;
+    width: calc(30% - 20px);
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.row-3 {
+    display: flex;
+    margin-left: 130px;
+}
+
+.row-3 .c-1 .img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 22%;
+    border: 8px solid #ddd;
+
+}
+
+.c-1 {
+
+    background: #e0e0e0;
+    box-shadow: 5px 5px 14px #d9d9d9,
+        -5px -5px 14px #e7e7e7;
+    width: calc(33.3% - 20px);
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.text-1 {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.icon-1 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.icon-1 i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    margin: 12px 10px;
+
+}

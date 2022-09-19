@@ -1,0 +1,555 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/*-------------------header section css------------------*/
+
+.header {
+    background-image: url(../img/background.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+   
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    z-index: 1;
+    transition: 0.3s;
+   
+}
+
+.container {
+    display: flex;
+   justify-content: space-around;
+    line-height: 15vh;
+    background: transparent;
+    height: 15vh;
+    transition: 0.3s;
+}
+
+.logo {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: orange;
+    transition: 0.3s;
+    width: 10%;
+}
+
+.menu ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.contant {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+.contant .h2 {
+    margin-left: -100px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.contant .h1 {
+    font-size: 40px;
+    margin-left: -200px;
+    word-spacing: 10px;
+}
+
+#btn {
+
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+/*----------------services section css-------------------*/
+
+.heading {
+    text-align: center;
+    margin-top: 7%;
+    padding-bottom: 7%;
+}
+
+.heading h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.heading p {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    max-width: 100%;
+}
+
+.col-1 {
+    width: 33.3%;
+    margin-inline: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.col-1 span {
+    width: 200px;
+}
+
+.col-1 span i {
+    height: 14vh;
+    width: 7vw;
+    font-size: 40px;
+    line-height: 9vh;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.col-1 .text {
+    margin-top: 20px;
+
+}
+
+.col-1 .text h2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.col-1 .text p {
+    margin-top: 10px;
+}
+
+
+/*-----------------protofolio section css-------------------*/
+
+
+.container-1 {
+    max-width: 1130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-1 .column {
+    width: 33.3%;
+}
+
+.column {
+
+    background: #e0e0e0;
+    box-shadow: 12px 12px 56px #d5d5d5,
+        -12px -12px 56px #ebebeb;
+}
+
+.column img {
+    width: 95%
+}
+
+.column h3,
+p {
+
+    text-align: center;
+}
+
+.column h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    padding-top: 25px;
+}
+
+.column p {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/*-----------------protofolio section  past-2 css-------------------*/
+
+.container-2 {
+    margin-top: 50px;
+    max-width: 1130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-2 .column {
+    width: 33.3%;
+}
+
+/*-----------about section css----------------*/
+
+
+.text {
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.text h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.text p {
+    padding-top: 10px;
+}
+
+.r-1 {
+    display: flex;
+    margin-top: 80px;
+}
+
+.contact-details {
+    width: 30%;
+    margin-left: 150px;
+    margin-right: 20px;
+    text-align: end;
+
+}
+
+.contact-details h4 {
+    font-size: 30px;
+    padding: 3px 0px;
+}
+
+.contact-details p {
+    text-align: justify;
+    padding-top: 5px;
+
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+}
+
+.cricle {
+
+    border: 10px solid #cccccc;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow: 11px 11px 36px #dcdcdc,
+        -11px -11px 36px #e4e4e4;
+}
+
+.r-2 {
+    position: relative;
+    left: -10%;
+    margin-top: 300px;
+
+}
+
+.contact-details-1 {
+    width: 285%;
+    position: absolute;
+    left: 109%;
+    text-align: start;
+
+}
+
+.contact-details-1 h4 {
+    font-size: 30px;
+    padding: 3px 0px;
+}
+
+.contact-details-1 p {
+    text-align: justify;
+    padding-top: 5px;
+
+}
+
+/*------------------testimoniyal section css-------------------*/
+
+
+.r-3 {
+    position: relative;
+    margin-top: 150px;
+}
+
+.contact-details-2 {
+    position: absolute;
+    right: 110%;
+    width: 285%;
+}
+
+.contact-details-2 h4 {
+    font-size: 30px;
+    padding: 3px 0px;
+    text-align: end;
+}
+
+.contact-details-2 p {
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.bg-color {
+    margin-top: 150px;
+    background-color: #f8f9fa;
+
+}
+
+.container-3 {
+    width: 1180px;
+    height: 105vh;
+}
+
+.heading-1 {
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.heading-1 h3 {
+
+    font-size: 35px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-top: 50px;
+}
+
+.heading-1 p {
+    padding-top: 10px;
+}
+
+.c-1 {
+    background-color: aqua;
+    width: calc(33.3% - 20px);
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.row-3 {
+    display: flex;
+    margin-left: 150px;
+}
+
+.row-3 .c-1 .img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 22%;
+    border: 8px solid #ddd;
+
+}
+
+.c-1 {
+
+    background: #e0e0e0;
+    box-shadow: 5px 5px 14px #d9d9d9,
+        -5px -5px 14px #e7e7e7;
+    width: calc(33.3% - 20px);
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.text-1 {
+    text-align: center;
+   
+}
+
+.icon-1 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.icon-1 i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    margin: 12px 10px;
+
+}
+
+.para {
+    text-align: center;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 40px;
+    color: #6c757d;
+}
+
+/*------------------------media section css----------------------*/
+
+
+.media {
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.m-1 img {
+    width: 150px;
+    margin-top: 50px;
+}
+
+.m-1 h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.img-size {
+    height: 40px;
+}
+
+/*------------------------footer section  css----------------------*/
+
+.footer-1 {
+    background-image: url(../img/map-image.png);
+    background-size: cover;
+    height: 100vh;
+    background-color: #000;
+    margin-top: 50px;
+}
+
+.form-text {
+    position: relative;
+    top: 50px;
+
+}
+
+.form-text h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+}
+
+.form-text p {
+    color: #f8f9fa67;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.form {
+    position: absolute;
+    top: 690%;
+    left: 10%;
+}
+
+#msg {
+    position: absolute;
+    top: -1%;
+    left: 220%;
+}
+
+input {
+    width: 200%;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 1%;
+    border: none;
+    font-size: 20px;
+}
+
+#msg {
+    height: 200px;
+}
+
+.btn-1 {
+    margin-top: 300px;
+    margin-left: 600px;
+}
+
+/*-------------------copy right section----------------*/
+
+.row-4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-4 .col-4 {
+   margin: 20px  0px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.col-4 i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 10px;
+}
+
+
+
+/*-------------media query for tablet-----------------*/
+@media (max-width : 1024px){
+
+
+
+
+
+
+
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+/* Arrows */
+
+
+.slick-next{
+    position: relative;
+    top: -25%;
+    left: -50px;
+    background: none;
+    border: none;
+   color: black;
+   text-decoration: none;
+   font-size: 0px;
+
+}
+
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 25px;
+
+}
+
+.slick-prev{
+margin-left: 1120px;
+position: relative;
+top: 250px;
+color: black;
+font-size: 0px;
+border: none;
+background: none;
+
+}
+
+.slick-prev:before
+{
+    font-family: 'slick';
+    font-size: 25px;
+   
+}
+
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+   
+
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
